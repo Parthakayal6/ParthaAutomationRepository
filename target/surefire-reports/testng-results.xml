@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-23T16:42:24 IST" name="Suite" finished-at="2022-06-23T16:42:59 IST" duration-ms="34816">
+    <groups>
+    </groups>
+    <test started-at="2022-06-23T16:42:24 IST" name="Test" finished-at="2022-06-23T16:42:59 IST" duration-ms="34816">
+      <class name="cucumberOption.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:cucumberOption.TestRunner@6e9175d8]" started-at="2022-06-23T16:42:24 IST" name="setUpClass" finished-at="2022-06-23T16:42:25 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOption.TestRunner@6e9175d8]" started-at="2022-06-23T16:42:25 IST" name="scenario" data-provider="features" finished-at="2022-06-23T16:42:39 IST" duration-ms="13937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate borrowing estimate"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Borrowing Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOption.TestRunner@6e9175d8]" started-at="2022-06-23T16:42:39 IST" name="scenario" data-provider="features" finished-at="2022-06-23T16:42:49 IST" duration-ms="10535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate start over button clears the form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Borrowing Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOption.TestRunner@6e9175d8]" started-at="2022-06-23T16:42:49 IST" name="scenario" data-provider="features" finished-at="2022-06-23T16:42:59 IST" duration-ms="9732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Error message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Borrowing Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOption.TestRunner@6e9175d8]" started-at="2022-06-23T16:42:59 IST" name="tearDownClass" finished-at="2022-06-23T16:42:59 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOption.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
