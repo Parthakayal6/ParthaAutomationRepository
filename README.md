@@ -42,7 +42,3 @@
    Test results, screenshots, and Playwright traces are stored in the Reports/ directory.
 7. **To view a trace:**
 
-   Open the trace in a browser using the command:
-
-```bash
-  npx playwright show-trace path/to/trace.zip 
